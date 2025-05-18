@@ -1,1 +1,5 @@
-# NetTech
+# HTML
+# CSS
+# JavaScript
+# Jquery
+# React
