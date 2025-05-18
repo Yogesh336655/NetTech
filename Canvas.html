@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <h1>HTML Canvas Examples</h1>
+    <canvas id="myCanvas" width="400" height="400" style="border: 3px solid black;"> </canvas>
+    <script>
+        const canvase = document.querySelector("#myCanvas");
+        const ctx = canvase.getContext("2d");
+        // reatangle
+        ctx.fillStyle = "blue"
+        ctx.fillRect(50, 50, 200, 100)
+
+
+        // circle
+        ctx.beginPath();
+        ctx.arc(200, 200, 50, 0, 2 * Math.PI);
+        ctx.fillStyle = "red";
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(50, 300);
+        ctx.lineTo(350, 300);
+        ctx.strokeStyle = "green";
+        ctx.lineWidth=3;
+        ctx.stroke();
+    </script>
+</body>
+
+</html>

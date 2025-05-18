@@ -1,0 +1,21 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+
+}
+    .Container_img {
+        width: 100%;
+        height: 50%;
+        display: inline-block;
+        background-color: gray;
+        background-image: url(https://cdn.pixabay.com/photo/2013/07/12/14/30/farmer-148325_1280.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }

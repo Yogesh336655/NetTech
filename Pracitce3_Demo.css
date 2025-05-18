@@ -1,0 +1,19 @@
+ImgTag {
+    Width: 700px;
+    border-radius: 50% 100px 50% 100px;
+}
+#FormateStyle {
+    color: blueviolet;
+}
+#Italic {
+color: blue;
+}
+#delete {
+    color: red;
+}
+blockquote {
+    color: aqua;
+}
+mark {
+    background-color: green;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <fieldset>
+        <legend>Student Registration Form</legend>
+
+        <label>User First Name :</label>
+        <input type="text" name="FirstName" placeholder="Enter Your First Name" /> <br />
+
+        <label>User Last Name :</label>
+        <input type="text" name="LastName" placeholder="Enter Your Last Name" /> <br />
+
+        <label>User Contact Number :</label>
+        <input type="tel" name="ContactNo" placeholder="Enter Your Contact Number" /> <br />
+
+        <label>User E-mail Id. :</label>
+        <input type="email" name="email" placeholder="Enter Your E-mail Id." /> <br />
+
+        <label>User Password :</label>
+        <input type="password" name="Password" placeholder="Enter Your Password" /> <br />
+
+        <label>Select Gender</label>
+        <label>Male</label>
+        <input type="radio" name="Gender" value="Male" /> &nbsp; &nbsp; &nbsp; &nbsp;
+        <label>Female</label>
+        <input type="radio" name="Gender" value="Female" /> <br />
+
+        <label>User Address</label>
+        <textarea name="Address" placeholder="Enter Your Address"></textarea> <br />
+
+        <label>User Personal Mobile Number :</label>
+        <input type="text" pattern="[0-9]{9}" maxlength="10" name="MobileNo"/> <br />
+
+        <input type="Submit" name="submit" value="Submit This Form">
+        <input type="reset" name="reset" value="Reset This Form">
+
+    </fieldset>
+</form>
+</body>
+</html>

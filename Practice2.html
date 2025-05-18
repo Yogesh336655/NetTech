@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text {
+            background-color: red;
+            color: aqua;
+        }
+
+        #text2 {
+            background-color: blue;
+            color: white;
+        }
+
+        p {
+            background-color: rgb(24, 206, 54);
+            color: white;
+        }
+
+        .dif_text {
+            background-color: rgb(70, 142, 206);
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text">This is Class Selector</h1>
+    <h2 id="text2">This is ID Selector</h2>
+    <p>This is Paragraph Tag</p>
+    <input type="text" name="User-Input" id="User" placeholder="Enter Your Name: " />
+    <input type="password" name="User-Pass" class="User-Pass" placeholder="Enter Your password: " />
+    <button onclick="myfunc()">submit</button>
+
+</body>
+<script>
+    function myfunc() {
+        let User = document.querySelector("#User").value;
+        let User_Pass = document.querySelector(".User-Pass").value;
+        console.log(User, "User Name");
+        console.log(User_Pass, "User Password");
+
+    }
+</script>
+
+</html>
